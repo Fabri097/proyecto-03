@@ -1,0 +1,24 @@
+.chartContainer {
+  height: 400px; // IMPORTANTE: Dale altura fija aquí
+  width: 100%;   // Y ancho total
+  background-color: #18181b;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.transactionItem {
+  transition: all 0.2s ease;
+  &:hover {
+    background: #27272a;
+    transform: translateX(4px);
+  }
+}
+
+.formInput {
+  background: #18181b;
+  border: 1px solid #27272a;
+  &:focus {
+    border-color: #34d399;
+    outline: none;
+  }
+}
