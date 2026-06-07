@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useFinanceStore } from "@/store/financeStore";
 
